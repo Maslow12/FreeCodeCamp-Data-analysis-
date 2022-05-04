@@ -13,4 +13,4 @@ def calculate(list1):
             'min':list([a.min(axis=0).tolist(), a.min(axis=1).tolist(), a.min().tolist()]),
             'sum':list([a.sum(axis=0).tolist(), a.sum(axis=1).tolist(), a.sum().tolist()])
         }            
-        retu2,3,4,5,6,7,8]))
+        return calculations
